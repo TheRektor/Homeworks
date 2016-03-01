@@ -1,6 +1,6 @@
 body{
     background-color: #f9f9f9;
-    height: auto;
+    height: 760px;
 }
 .global{
     align-self: center;
@@ -71,6 +71,10 @@ a{
     padding-bottom:23px;
     color:grey;
 }
+PanelsParent{
+    width:216px;
+    height:10px;
+    }
 #lastpanel{
     border: 1px solid #c8c8c8;
     width:216px;
@@ -80,7 +84,9 @@ a{
     padding-bottom:23px;
     color:grey;
 }
-
+.LeftText{
+    color: grey
+}
 #thirdpanel{
     border-top:1px solid #c8c8c8;
     border-right:1px solid #c8c8c8;
@@ -91,8 +97,7 @@ a{
     padding-left:34px;
     padding-top: 7px;
     padding-bottom:23px; 
-   
-}
+   }
 .bike{
     position:relative;
     left:295px;
@@ -120,7 +125,7 @@ a{
     background-color:#e0e0e0;
     color: black;
 }
-#navigation2 li {
+#navigation2 .home {
     float: left;
     display:block;
     position: relative;
@@ -131,6 +136,65 @@ a{
     margin: 5px 50px 5px 20px;
     padding-top: 5px;
     margin-right: 40px;
+}
+#navigation2 #sells2 {
+    float: left;
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-family:serif;
+    text-align: center;
+    height: 33px;
+    margin: 5px 50px 5px 20px;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+#navigation2 .home {
+    float: left;
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-family:serif;
+    text-align: center;
+    height: 33px;
+    margin: 5px 50px 5px 20px;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+#navigation2 .info {
+    float: left;
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-family:serif;
+    text-align: center;
+    height: 33px;
+    margin: 5px 50px 5px 20px;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+#navigation2 #contacts2 {
+    float: left;
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-family:serif;
+    text-align: center;
+    height: 33px;
+    margin: 5px 50px 5px 20px;
+    padding-top: 5px;
+    margin-right: 380px;
+}
+#navigation2 .copyright {
+    float: left;
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-family:serif;
+    text-align: center;
+    height: 33px;
+    margin: 5px 50px 5px 20px;
+    padding-top: 5px;
 }
 
 #sells2{
@@ -146,8 +210,7 @@ a{
    .footer:active {
     color:#2c2c2c;
 }
-
-#contacts{
-    margin-left:200px;
+#contacts2{
+    margin-right:200px;
     
 }
