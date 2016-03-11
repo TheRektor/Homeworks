@@ -3,7 +3,6 @@ body{
     height: 760px;
 }
 .global{
-    align-self: center;
     width: 980px;
     height: 750px;
     margin-left: 40px;
@@ -63,15 +62,14 @@ a{
 .leftpanel{
     width:216px;
     height:10px;
-    border-top:1px solid #c8c8c8;
-    border-right:1px solid #c8c8c8;
-    border-left: 1px solid #c8c8c8;
+    border: 1px solid #c8c8c8;
+    border-bottom: 0px;
     padding-left:24px;
     padding-top: 7px;
     padding-bottom:23px;
     color:grey;
 }
-PanelsParent{
+.PanelsParent{
     width:216px;
     height:10px;
     }
@@ -88,9 +86,8 @@ PanelsParent{
     color: grey
 }
 #thirdpanel{
-    border-top:1px solid #c8c8c8;
-    border-right:1px solid #c8c8c8;
-    border-left: 1px solid #c8c8c8;
+    border: 1px solid #c8c8c8;
+    border-bottom: 0px;
     width:206px;
     height:10px;
     background-color: #f9f9f9;
@@ -98,11 +95,7 @@ PanelsParent{
     padding-top: 7px;
     padding-bottom:23px; 
    }
-.bike{
-    position:relative;
-    left:295px;
-    bottom: 245px;
-}
+
 
 .text{
     position:relative;
