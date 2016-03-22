@@ -1,5 +1,5 @@
 body{
-    background:url(/img/asia_holidays.jpg);
+    background:url(../img/asia_holidays.jpg);
 }
 .global {
     width: 980px;
@@ -14,4 +14,64 @@ body{
 }
 .logo{
     margin-left: 30px;
+    margin-top:29px;
+    margin-bottom: -7px;
+}
+.contacts{
+    float: right;
+    color: #128aa7;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+.ourContacts{
+    font-weight: bold;
+}
+.info li{
+    width: auto;
+}
+
+
+#navigation {
+    margin-bottom: 40px;
+    padding: 0px;
+    list-style: none;
+    width: 1000px;
+    height: 27px;
+    background-color:#303030;
+    margin-top: -7px;
+    border-bottom: black 2px solid;
+}
+#navigation li {
+    float: left;
+    display: block;
+    color:white;
+    font-size: 16px;
+    font-family: serif;
+    height: 100%;
+    margin: 0px;
+    padding-top: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left:5px;
+}
+.navigationA{
+    text-decoration: none;
+    color:white;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    }
+ul li ul{
+    display: none;
+    width: 100px;
+}
+ul li:hover ul{
+    display: block;
+}
+.drop li{
+    background-color: #303030;
+    width: 150px;
+    float: left;
 }
