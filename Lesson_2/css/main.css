@@ -2,29 +2,32 @@ body{
     background:url(../img/asia_holidays.jpg);
 }
 .global {
-    width: 980px;
-    height: 1000px;
+    width: 1000px;
+    height: 950px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: white;
-    box-shadow: -1px 0px 4px 0px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
     margin: auto;
-    padding: 20px 20px 20px 0px;
-    line-height: 1.5;
 }
 .logo{
     margin-left: 30px;
-    margin-top:29px;
-    margin-bottom: -7px;
+    margin-top:49px;
+    float: left;
 }
 .contacts{
     float: right;
     color: #128aa7;
     line-height: 1.2;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .ourContacts{
     font-weight: bold;
+}
+.info{
+    margin-left: 190px;
 }
 .info li{
     width: auto;
@@ -32,15 +35,23 @@ body{
 
 
 #navigation {
-    margin-bottom: 40px;
-    padding: 0px;
+    -webkit-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
     list-style: none;
     width: 1000px;
     height: 27px;
     background-color:#303030;
-    margin-top: -7px;
-    border-bottom: black 2px solid;
+    border-bottom: black 1px solid;
 }
+.photo{
+    display: block;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
 #navigation li {
     float: left;
     display: block;
@@ -51,18 +62,15 @@ body{
     margin: 0px;
     padding-top: 3px;
     margin-right: 10px;
-    margin-left: 20px;
+    margin-left: 35px;
     padding-left:5px;
+    cursor: pointer;
+    position: relative;
 }
 .navigationA{
     text-decoration: none;
     color:white;
 }
-ul li{
-    cursor: pointer;
-    position: relative;
-    width: 100px;
-    }
 ul li ul{
     display: none;
     width: 100px;
@@ -74,4 +82,47 @@ ul li:hover ul{
     background-color: #303030;
     width: 150px;
     float: left;
+}
+.footer{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+.right{
+    height: 470px;
+    width:205px;
+    background-color:#edeef0;
+    float: right;
+    line-height: 1.5;
+    padding-left:10px;
+}
+.left{
+    padding-left:10px;
+    float: left; 
+    height:470px;
+    width:205px;
+    background-color:#edeef0;
+    line-height: 1.5;
+}
+.tittle{
+    text-align: center;
+    font-weight: bold;
+}
+.countries{
+    float:right;
+    margin-top: 20px;
+}
+.countriesUl{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+.countries li{
+    width: 60px;
+    float: right;
+    font-size:10px;
+    text-align: center;
+}
+.countriesA{
+    color:#128aa7;
 }
