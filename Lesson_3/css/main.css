@@ -1,0 +1,128 @@
+body{
+    background:url(../img/asia_holidays.jpg);
+}
+.global {
+    width: 1000px;
+    height: 950px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    -webkit-box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 1px -1px rgba(0,0,0,0.75);
+    margin: auto;
+}
+.logo{
+    margin-left: 30px;
+    margin-top:49px;
+    float: left;
+}
+.contacts{
+    float: right;
+    color: #128aa7;
+    line-height: 1.2;
+    margin-top: 40px;
+}
+.ourContacts{
+    font-weight: bold;
+}
+.info{
+    margin-left: 190px;
+}
+.info li{
+    width: auto;
+}
+
+
+#navigation {
+    -webkit-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.75);
+    list-style: none;
+    width: 1000px;
+    height: 27px;
+    background-color:#303030;
+    border-bottom: black 1px solid;
+}
+.photo{
+    display: block;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+#navigation li {
+    float: left;
+    display: block;
+    color:white;
+    font-size: 16px;
+    font-family: serif;
+    height: 100%;
+    margin: 0px;
+    padding-top: 3px;
+    margin-right: 10px;
+    margin-left: 35px;
+    padding-left:5px;
+    cursor: pointer;
+    position: relative;
+}
+.navigationA{
+    text-decoration: none;
+    color:white;
+}
+ul li ul{
+    display: none;
+    width: 100px;
+}
+ul li:hover ul{
+    display: block;
+}
+.drop li{
+    background-color: #303030;
+    width: 150px;
+    float: left;
+}
+.footer{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+.right{
+    height: 470px;
+    width:205px;
+    background-color:#edeef0;
+    float: right;
+    line-height: 1.5;
+    padding-left:10px;
+}
+.left{
+    padding-left:10px;
+    float: left; 
+    height:470px;
+    width:205px;
+    background-color:#edeef0;
+    line-height: 1.5;
+}
+.tittle{
+    text-align: center;
+    font-weight: bold;
+}
+.countries{
+    float:right;
+    margin-top: 20px;
+}
+.countriesUl{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+.countries li{
+    width: 60px;
+    float: right;
+    font-size:10px;
+    text-align: center;
+}
+.countriesA{
+    color:#128aa7;
+}
