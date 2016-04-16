@@ -1,0 +1,46 @@
+.photo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: gray;
+    height: 1px;
+}
+ div {
+    font-size: 20px;
+}
+.global {
+    align-self: center;
+    width: 600px;
+    height: 920px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 40px 80px 40px 80px;
+    box-shadow: -1px 0px 4px 0px rgba(0, 0, 0, 0.65);
+    margin: auto;
+    line-height: 1.5;
+}
+body {
+    background-color: gainsboro;
+}
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 2px;
+    background: black;
+    width: 100%;
+}
+ A {
+    color: blue;
+}
+ A:visited {
+    color: blue;
+}
+ A:active {
+    color: blue;
+}
