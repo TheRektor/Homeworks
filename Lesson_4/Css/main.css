@@ -20,7 +20,17 @@
 #lastLi{
     background-color: #7bb4db;
     color: white;
-    
+    width: 170px; 
+    margin-right:30px;
+}
+#MeuBike{
+ width:80px;
+}
+#Minhas{
+    width: 160px;
+}
+#Vender{
+    color:white;
 }
 .headerUL li{
     float: left;
@@ -30,6 +40,9 @@
     padding-left: 11px;
     margin-left: 10px;
     color:#60b5ed;
+}
+.Ajuda{
+border-right: 1px #60b5ed solid;
 }
 .headerUL li a{
     text-decoration: none;
@@ -58,14 +71,14 @@ body{
 .OU{
     margin: 30px 0px 60px 140px;
 }
-.ou_border{
+.ouBorder{
     border-bottom: 1px black solid;
     width: 124px;
     float: left;
     border-top:1px grey solid;
     margin-top: 6px;
 }
-.ou_text{
+.ouText{
     font-size: 14px;
     float: left;
     color:grey;
@@ -109,9 +122,24 @@ button{
     border: 0px;
     color:white;
     margin: 20px 0px 20px 0px;
+    padding: 0;
+    line-height: 2.3;
 }
 .Privacy{
     color: #cccccc;
     width: 300px;
     margin:auto;
+    font-size: 11px;
 }
+#Send{
+    font-size: 14px;
+}
+.ButtonDiv{
+    height: 100%;
+    width:100%;
+    
+}
+.gradient{
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(255,255,255,0));
+}
+
