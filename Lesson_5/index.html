@@ -16,30 +16,33 @@
        </div>
        <div class="reg">
             <img src="img/reg.png" alt="register" class="smallImg"  >
-            <input type="text" class="regField" placeholder="логин">
-            <input type="password" class="regField" placeholder="пароль">
-           <a href="" class="EoR">вход</a><a class="line">|</a><a href="#" class="EoR">регистрация</a>
-           <a href="#" class="forgot">забыли пароль?</a>
+            <form class="regform">
+            <input type="text" class="regField" placeholder="логин" name="Login">
+            <input type="password" class="regField" placeholder="пароль" name="Password">
+            <input type="submit" class="SubmitButton" value="вход"/><a class="line">|</a><a href="#" class="EoR">регистрация</a>
+            <a href="#" class="forgot">забыли пароль?</a>
+           </form>
        </div>
        <div class="navi">
-       <a href="#"><img src="img/home.png" alt="home" class="naviA"></a>
-       <a href="#"><img src="img/map.png" alt="map" class="naviA"></a>
-       <a href="#"><img src="img/message.png" alt="message" class="naviA"></a>
+           <a href="#"><img src="img/home.png" alt="home" class="naviA"></a>
+           <a href="#"><img src="img/map.png" alt="map" class="naviA"></a>
+           <a href="#"><img src="img/message.png" alt="message" class="naviA"></a>
        </div>
        <div class="clear"></div>
        <div class="banner"><img src="img/banner.png" alt="banner"></div> 
        
-       <nav class="menu">
-       <div class="navCell firstCell">о компании</div>
-       <div class="navCell">оплата</div>
-       <div class="navCell">доставка</div>
-       <div class="navCell">статьи</div>
-       <div class="navCell">контакты</div>
-       <div class="pocket">
+       <ul class="menu">
+       <li class="navCell firstCell">о компании</li>
+       <li class="navCell">оплата</li>
+       <li class="navCell">доставка</li>
+       <li class="navCell">статьи</li>
+       <li class="navCell">контакты</li>
+       <li class="pocket">
        <a href="#" class="cart"><img src="img/cart.png" alt="cart"></a>
        <p class="cash">товаров:</p><p class="lastSimbols">0</p>
        <p class="cash">на сумму:</p><p class="lastSimbols">0,00 грн.</p>
-       </div>
+       </li>
+       </ul>
    </nav> 
    </header>
    <div id="Find" style=" margin:6px 0px 0px 5px";>
@@ -73,101 +76,119 @@
            <li class="nameLi"><a href="#" class="nameA">Наименование 4</a></li>
        </ul>
    </aside>
-   <article id="Wheels">
+   <main id="Wheels">
    <ul class="WheelList">
+      <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Goodyear
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Ultra Grip Extreme
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">90.00грн.</p>
+       <span class="Price">90.00грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Nokian
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Hakkapeliitta R
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">115.00 грн.</p>
+       <span class="Price">115.00 грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Hankook
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        K 708 155/65 R14 
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">393.00грн.</p>
+       <span class="Price">393.00грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Goodyear
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Ultra Grip Extreme
-       </p>
+       </h2>
        <img src="img/Wheel.png" alt="">
-       <p class="Price">90.00 грн.</p>
+       <span class="Price">90.00 грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-      <p class="Mark">
+      <h1 class="Mark">
        Nokian
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Hakkapeliitta R
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">115.00грн.</p>
+       <span class="Price">115.00грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Hankook
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        K 708 155/65 R14 
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">393.00 грн.</p>
+       <span class="Price">393.00 грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Goodyear
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Ultra Grip Extreme
-       </p>
+       </h2>
        <img src="img/Wheel.png" alt="">
-       <p class="Price">90.00 грн.</p>
+       <span class="Price">90.00 грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Nokian
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        Hakkapeliitta R
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">115.00 грн.</p>
+       <span class="Price">115.00 грн.</span>
        </a></li>
+       </article>
+       <article>
        <li class="CatalogLi"><a href="#" class="CatalogA">
-       <p class="Mark">
+       <h1 class="Mark">
        Hankook
-       </p>
-       <p Class="Mark2">
+       </h1>
+       <h2 Class="Mark2">
        K 708 155/65 R14 
-       </p> 
+       </h2> 
        <img src="img/Wheel.png" alt="">
-       <p class="Price">393.00 грн.</p>
+       <span class="Price">393.00 грн.</span>
        </a></li>
+       </article>
    </ul>
   
-   </article>
+   </main>
    <aside class="RightAside">
        <h3 class="Production" id="RightProduction">
        <img src="img/Icon.png" alt="Icon" class="icon">Бренды:
@@ -185,7 +206,7 @@
        <input type="checkbox" name="option2" value="a2" checked  class="CheckedBox">Бренд 2<br>
        <input type="checkbox" name="option3" value="a3" checked  class="CheckedBox">Бренд 3 <br>
        </div>
-       <button>выбрать</button>
+       <button class="Checkbutton">выбрать</button>
    </aside>
    <div class="clear"></div>
    <div class="brands">
