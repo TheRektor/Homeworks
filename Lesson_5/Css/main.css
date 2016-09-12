@@ -223,6 +223,9 @@ Aside{
     float: left;
 }
 #Wheels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width:526px;
     height: 627px;
     background: linear-gradient(to bottom,#c9cfd1,#234b5d);
